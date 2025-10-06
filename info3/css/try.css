@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(3, 124, 230);
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    text-align: center;      /*le titre de page*/
+    color: rgba(105, 10, 10, 0.564);
+    background-color: rgb(255, 0, 0);
+    font-size: 300%;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+p {width: 200px;        /* largeur */
+height: 100px;       /* hauteur */
+padding: 10px;       /* espace interne */
+margin: 20px;        /* espace externe */
+border: 2px solid black; /* bordure */
+box-sizing: border-box; /* padding et border inclus dans largeur et hauteur*/}
