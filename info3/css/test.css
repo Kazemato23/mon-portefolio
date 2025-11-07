@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(to right ,rgb(255, 166, 0),red);   /*circle , center , to right , to left avec linear et 45deg avec radial*/   /*background: linear-gradient(to right ,orange,red); background:radial-gradient(circle,rgb(255, 0, 0) , rgb(0, 0, 255));*/
+    color:rgb(255, 0, 0);
+}
+
+header {     /*titre*/
+    text-align: center;
+    background-color: blue;
+    /*bordure du titre*/
+    border: 1px solid black ;
+}
+.div2 {
+    border: 5px dashed red;   /*dashed , dotted , double ,wavy ? */
+    border-top: 5px solid blue;
+    border-bottom-left-radius: 5px dotted black;
+    width: 200px;
+    height: 200px;
+    background:radial-gradient(circle,rgb(110, 2, 199) , yellow);
+} 
+.div1 { 
+    text-align: center;
+    line-height: 125px;
+    transform: translate(800px,0px);
+    border: 5px solid rgb(0, 0, 0);  
+    border-radius: 8% ; 
+    width: 300px;
+    height: 150px;
+    background:linear-gradient(to right ,orange,red);
+    background-color: black;
+}
+/*a:active{
+
+}*/
+a:hover {
+    color:rgb(187, 255, 0);
+}
+input:focus{
+    border: 2px wavy black;
+    background-color: aqua;
+}
+button{
+    color: white;
+    background-color: orange;
+    transition: background-color 3s ease;
+    transition: border 3s ease;
+}
+button:hover{
+    background-color: orangered;
+    border: 3px solid black;
+}
