@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(56, 69, 156);
+    background-color: #00b4d8ff;
     color: rgb(0, 0, 0);
 }
 button {
@@ -13,7 +13,7 @@ h1 {
 
 header {     /*titre*/
     text-align: center;
-    background-color: rgba(23, 173, 90, 0.836);
+    background-color: blue;
     /*bordure du titre*/
     border: 1px solid black ;
 }
@@ -31,3 +31,11 @@ nav {
 a:hover {          /*changer de couleur quand la souris passe sur les liens*/
     color: rgb(240, 0, 0);
 }
+
+
+
+/*  --federal-blue: #03045eff;
+--honolulu-blue: #0077b6ff;
+--pacific-cyan: #00b4d8ff;
+--non-photo-blue: #90e0efff;
+--light-cyan: #caf0f8ff;    */
