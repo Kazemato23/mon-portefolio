@@ -1,32 +1,63 @@
-/*  @media (condition){
-    //style specifique
-    }       format */
-
-    /*tel <= 900px*/
-
-    @media(max-width:600px) {body{
+@media(max-width:600px) {body{
     background-color: rgb(35, 145, 7);
 }}
-    @media(min-width:601px) {body{
+
+@media(min-width:601px) {body{
     background-color: orange;
 }}
-.mid{
-    transform: translate(500px,250px);
-    background-color: white;
-    width: 40vw;    /*w=width   =largeur*/
-    height: 25vh;  /* h=height  =hauteur*/
-    display: flex;  /*pour centrer*/
-    justify-content:center;  
-    align-items:center;  /*align-items:center;*/
-    flex-wrap: wrap;
-    border-radius: 15px ;
-}
-.milieu{   
-    display: flex;
-    margin: 1vw;
-    padding: 2vw;}
 
+/* on centre la balise contient la box*/
+.centre {
+    display: flex;          /*permet de centrer*/
+    justify-content: center; /*centre horizontalement*/
+    align-items: center;     /*centre verticalement*/
+    height: 100vh;           /*permet a align-items de se centrer sur la page en entiere*/
+}
+
+
+.mid{
+    background-color: white;
+    border-radius: 15px ;
+    width: 60vw;    /*w=width   =largeur*/
+    height: 40vh;  /* h=height  =hauteur*/
+    display: flex;  /*permet utiliser jusity et align*/
+    justify-content:center;  
+    align-items:center;  
+}
 
 .image img{
-    max-width: 100%;
+    width: 60%;             
+    justify-content: flex-start;
+}
+
+.milieu{
+    width: 45vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button{
+    background-color: orange;
+}
+
+
+
+/*met tous en vertical si telephone:*/
+@media (max-width: 600px) {
+    .mid {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width: 40vw;    /*w=width   =largeur*/
+        height: 50vh;  /* h=height  =hauteur*/
+    }
+    .image img {
+        width: 60%;
+    }
+    button{
+        background-color: rgb(35, 145, 7); ;
+    }
 }
