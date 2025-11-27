@@ -1,0 +1,35 @@
+/*  @media (condition){
+    //style specifique
+    }       format */
+
+    /*tel <= 900px*/
+
+    @media(max-width:600px) {body{
+    background-color: rgb(35, 145, 7);
+}}
+    @media(min-width:601px) {body{
+    background-color: orange;
+}}
+.mid{
+    transform: translate(500px,250px);
+    background-color: white;
+    width: 40vw;    /*w=width   =largeur*/
+    height: 25vh;  /* h=height  =hauteur*/
+    display: flex;  /*pour centrer*/
+    justify-content:center;  
+    align-items:center;  /*align-items:center;*/
+    flex-wrap: wrap;
+    border-radius: 15px ;
+}
+.milieu{   
+    display: flex;
+    margin: 1vw;
+    padding: 2vw;}
+
+
+.image img{
+    max-width: 100%;
+}
+
+
+
