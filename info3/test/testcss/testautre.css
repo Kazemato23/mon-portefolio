@@ -28,19 +28,3 @@ img{
 
 
 
-.mid{
-    background-color: white;
-    width: 40vw;    /*w=width   =largeur*/
-    height: 25vh;  /* h=height  =hauteur*/
-    display: flex;  /*pour centrer*/
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; 
-    border-radius: 15px ;
-}
-
-.milieu{   
-    width: 40vw;    /*w=width   =largeur*/
-    height: 25vh;  /* h=height  =hauteur*/
-    display: flex;  /*pour centrer*/
-}
