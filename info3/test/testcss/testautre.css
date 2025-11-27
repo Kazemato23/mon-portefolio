@@ -1,0 +1,46 @@
+/*  @media (condition){
+    //style specifique
+    }       format */
+
+    /*tel <= 900px*/
+@media(max-width:900px) {body{
+    background-color: blue;
+}}
+
+    /*tablette<= 600px*/
+@media(max-width:600px) {
+    body{background-color: red;}
+}
+
+    /*ordi>= 900px*/
+@media(min-width:900px) {body{
+    background-color: orange;
+}}
+
+@media(prefers-color-scheme: light){}
+
+@media(orientation: portrait){}
+
+
+img{
+    max-width: 50%;
+}
+
+
+
+.mid{
+    background-color: white;
+    width: 40vw;    /*w=width   =largeur*/
+    height: 25vh;  /* h=height  =hauteur*/
+    display: flex;  /*pour centrer*/
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 15px ;
+}
+
+.milieu{   
+    width: 40vw;    /*w=width   =largeur*/
+    height: 25vh;  /* h=height  =hauteur*/
+    display: flex;  /*pour centrer*/
+}
