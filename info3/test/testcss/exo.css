@@ -14,20 +14,26 @@
     height: 100vh;           /*permet a align-items de se centrer sur la page en entiere*/
 }
 
+.image img{
+    width: 100%;  
+    justify-content: left;  
+    align-items:center; 
+}
+
 
 .mid{
     background-color: white;
     border-radius: 15px ;
-    width: 60vw;    /*w=width   =largeur*/
-    height: 40vh;  /* h=height  =hauteur*/
+    width: auto;    /*w=width   =largeur*/
+    height: auto;  /* h=height  =hauteur*/
+    padding: 5px;
     display: flex;  /*permet utiliser jusity et align*/
     justify-content:center;  
-    align-items:center;  
+    align-items:center; 
 }
 
 .image img{
-    width: 60%;             
-    justify-content: flex-start;
+    width: 100%;             
 }
 
 
@@ -54,4 +60,3 @@ button{
         background-color: rgb(35, 145, 7); ;
     }
 }
-
