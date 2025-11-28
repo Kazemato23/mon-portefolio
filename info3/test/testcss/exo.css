@@ -30,13 +30,6 @@
     justify-content: flex-start;
 }
 
-.milieu{
-    width: 45vw;
-    height: 30vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 
 button{
@@ -61,3 +54,4 @@ button{
         background-color: rgb(35, 145, 7); ;
     }
 }
+
