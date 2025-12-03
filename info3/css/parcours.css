@@ -1,0 +1,95 @@
+body {
+    color: var(--ct2);
+    background-color: var(--fond-page);
+}
+
+header {     
+    text-align: center;
+    color: var(--ct2);
+    background-color: var(--titre-fond);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav { 
+    background: var(--nav-fond);
+}
+
+nav ul { 
+    list-style: none; /*enleve les points*/
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content:space-evenly;  /*espace égaux*/
+}
+
+nav ul li a { 
+    font-weight: bold;  /*txt gras*/
+    text-decoration: none; /*sans soulignement */
+    display: flex; 
+    align-items: center;
+    padding: 25px;  /*espace interieur lien*/
+    color: var(--ct2);  /*couleur lien*/
+    font-size: 20px;
+}
+
+nav a:hover { 
+    background: var(--bouton-fond); 
+}
+
+h1 {
+    text-align: center;      /*le titre de page*/
+    font-size: 50px;
+}
+
+
+h2 {
+    text-align: center;      
+    font-size: 50px;
+    color: var(--ct1);
+}
+table{
+
+    border-collapse: collapse;  /*pour que les lignes du tableau se colle*/
+margin: auto;
+}
+th, td{
+    border: 1px solid var(--ct1);
+    padding: 10px;
+    text-align: center;
+}
+th{
+    background-color: var(--couleur-entrée-tab);  /*entrée*/
+    color: var(--ct1);
+}
+
+td{
+    background-color: var(--ct2);  /*"titre" du tableau*/
+    color: var(--ct1);
+}
+.c1,.c2,.c3{
+    background-color: var(--couleur-entrée-tab);  /*"titre" du tableau*/
+}
+
+footer { 
+    text-align: center;  
+    background: var(--footer); 
+    color: var(--ct2);
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+@media (max-width: 600px) {
+    nav ul { 
+        display: flex;
+        flex-direction: column;
+    }
+    th, td{
+        border: 1px solid var(--ct1);
+        text-align: center;
+    }
+}
