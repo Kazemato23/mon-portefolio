@@ -19,20 +19,20 @@ nav {
 }
 
 nav ul { 
-    list-style: none; /*enleve les points*/
+    list-style: none; 
     margin: 0;
     padding: 0;
     display: flex; 
-    justify-content:space-evenly;  /*espace égaux*/
+    justify-content:space-evenly; 
 }
 
 nav ul li a { 
-    font-weight: bold;  /*txt gras*/
-    text-decoration: none; /*sans soulignement */
+    font-weight: bold;  
+    text-decoration: none; 
     display: flex; 
     align-items: center;
-    padding: 25px;  /*espace interieur lien*/
-    color: var(--ct2);  /*couleur lien*/
+    padding: 25px; 
+    color: var(--ct2);  
     font-size: 20px;
 }
 
@@ -41,7 +41,7 @@ nav a:hover {
 }
 
 h1 {
-    text-align: center;      /*le titre de page*/
+    text-align: center;      
     font-size: 50px;
 }
 
@@ -90,7 +90,7 @@ footer {
         align-items:center;  
     }
     .image img{
-        margin-top: 30px;   /*pour laisser de l'espace entre nav et image*/
+        margin-top: 30px;   
     }
     .txt{
         text-align: center;
@@ -98,4 +98,5 @@ footer {
     footer{
         margin-top: 50px;
     }
+
 }
