@@ -19,20 +19,20 @@ nav {
 }
 
 nav ul { 
-    list-style: none; /*enleve les points*/
+    list-style: none; 
     margin: 0;
     padding: 0;
     display: flex; 
-    justify-content:space-evenly;  /*espace égaux*/
+    justify-content:space-evenly; 
 }
 
 nav ul li a { 
-    font-weight: bold;  /*txt gras*/
-    text-decoration: none; /*sans soulignement */
+    font-weight: bold; 
+    text-decoration: none; 
     display: flex; 
     align-items: center;
-    padding: 25px;  /*espace interieur lien*/
-    color: var(--ct2);  /*couleur lien*/
+    padding: 25px;  
+    color: var(--ct2);  
     font-size: 20px;
 }
 
@@ -41,7 +41,7 @@ nav a:hover {
 }
 
 h1 {
-    text-align: center;      /*le titre de page*/
+    text-align: center;      
     font-size: 50px;
 }
 
@@ -69,7 +69,7 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 30px;
-    flex-wrap: wrap; /*passe en dessous de phto si on reduit taille ecran*/
+    flex-wrap: wrap; 
 }
 
 .introduction p{
@@ -91,7 +91,7 @@ footer {
     align-items: center;
     flex-direction: column-reverse;
     gap: 20px;
-    flex-wrap: wrap; /*passe en dessous de phto si on reduit taille ecran*/
+    flex-wrap: wrap;
 }
 
 figure {
@@ -100,7 +100,7 @@ figure {
     border-radius: 10px;
 }
 
-figure img {/*image se réduit avec la taille de l'écran*/
+figure img {
     max-width: 90%;
     height: auto;
 }
@@ -135,4 +135,5 @@ img{
         display: flex;
         flex-direction: column;
     }
+
 }
